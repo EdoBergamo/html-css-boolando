@@ -4,3 +4,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+.container {
+    background-color: #ff6900;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
